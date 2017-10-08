@@ -62,7 +62,7 @@ sudo yum install python34 python34-pip
 
 Then use pip to install `pypolicyd-spf` and its dependencies:
 ```
-sudo pip install pypolicyd-spf pyspf py3dns
+sudo pip3 install pypolicyd-spf pyspf py3dns
 ```
 
 Then modify `/etc/postfix/master.cf`, replacing the definition for `policyd-spf` with 
